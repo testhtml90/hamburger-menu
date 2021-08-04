@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-hamburger {
+  display: block;
+  margin-top: 50px;
+  margin-left: 25px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.menu-hamburger__content {
+  background-color: black;
+  width: 50px;
+  height: 7.5px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.menu-hamburger-barre1 {
+  position: absolute;
+  top: 55px;
+  rotate: 45deg;
+  background-color: #fff;
+}
+
+.menu-hamburger-barre2 {
+  position: absolute;
+  top: 55px;
+  left: -100px;
+  opacity: 0;
+}
+
+.menu-hamburger-barre3 {
+  position: absolute;
+  top: 55px;
+  rotate: -45deg;
+  background-color: #fff;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  opacity: 1;
+  width: 45vh;
+  height: 200%;
+  color: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-activate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 207px;
+  height: 200%;
+  color: #fff;
+  opacity: 1;
+}
+
+.nav-button {
+  background-color: transparent;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  border: 3px solid #fff;
+  color: #fff;
+  width: 100px;
+}
+
+.nav-button1 {
+  margin-top: 200px;
+}
+
+.nav-button1:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.button-nav {
+  font-weight: bold;
+  background: transparent;
+  color: #333;
+  padding: 10px 25px;
+  border: 2px solid #333;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-nav:hover {
+  background: #fff;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */
